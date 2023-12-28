@@ -66,4 +66,4 @@ while continue_game == "y":
 print("# of questions asked: ", question_number)
 print("Correct Answers ", correct)
 print("Incorrect Answers", incorrect)
-print("Score: " + str((question_number/correct*100)) + "%")
+print("Score: " + str(((correct/question_number)*100)) + "%")
